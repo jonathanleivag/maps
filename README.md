@@ -1,11 +1,48 @@
-# Vue 3 + Typescript + Vite
+# Maps - Vue 3 + Typescript + Vite
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<img src="./demo.png">
 
-## Recommended IDE Setup
+Es un programa para ver la distancia y tiempo de un punto a otro en un mapa
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+- [Tailwind css](https://tailwindcss.com/)
+- [Typescript](https://www.typescriptlang.org/)
+- [VUE.js](https://vuejs.org/)
+- [Mapbox](https://www.mapbox.com/)
+- [sweetalert2](https://sweetalert2.github.io/)
+- [vite](https://vitejs.dev/)
 
-## Type Support For `.vue` Imports in TS
+## Instalación
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+Template Requiere
+[Node.js](https://nodejs.org/),
+[NPM](https://nodejs.org/) o [yarn](https://yarnpkg.com/),
+[Chrome](https://www.google.com/intl/es-419/chrome/)
+
+Instale las dependencias y dependencias de desarrollo.
+
+```sh
+cd maps
+npm i o yarn
+```
+
+.env
+
+```sh
+# token de mapbox
+VITE_TOKEN_MAPBOX=
+```
+
+## Comandos
+
+Tiene un listado de comando para realizar
+
+| Comandos      | Descripción                                           |
+| ------------- | ----------------------------------------------------- |
+| npm run dev   | Crear un servidor de desarrollo                       |
+| npm run build | Crear los archivos necesario para producción (./dist) |
+
+# License
+
+Usar este programas para aprender, no lo utilice como página para ver el clima. MIT
+
+Free Software, Hell Yeah!
